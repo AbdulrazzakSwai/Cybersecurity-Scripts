@@ -21,6 +21,7 @@ A Bash script that automates a full Nmap workflow, designed to identify live hos
   - Default script scan
 - Summarizes live ports and OS per host
 - Outputs final Nmap enumeration results for each target
+- Saves all generated files on the local directory
 
 #### 🚀 Usage
 ```bash
