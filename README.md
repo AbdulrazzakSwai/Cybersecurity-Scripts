@@ -1,4 +1,4 @@
-# Cybersecurity Scripts
+# 📜 Cybersecurity Scripts
 
 A collection of custom-written scripts for ethical cybersecurity purposes.
 
