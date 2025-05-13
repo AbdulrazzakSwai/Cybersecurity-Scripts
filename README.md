@@ -6,9 +6,9 @@ A collection of custom-written scripts for ethical cybersecurity purposes.
 
 ## 🛠️ Currently Available Script
 
-### `naio.sh` – Nmap All-In-One Scanner
+### `naio.sh` – Nmap All-In-One Scanner (for VirtualBox locally-hosted target machines)
 
-A Bash script that automates a full Nmap workflow, designed to identify live hosts, filter out virtual machines (VirtualBox), enumerate open ports, detect operating systems, and run basic service detection — all in one go.
+A Bash script that automates a full Nmap workflow, designed to identify live hosts, filter for virtual machines by VirtualBox, enumerate open ports, detect operating systems, and run basic service detection — all in one go.
 
 #### 🔍 Features
 - Accepts IP, CIDR, or IP range as input
@@ -39,6 +39,7 @@ chmod +x naio.sh
 
 * `nmap` must be installed
 * Root/sudo privileges required for certain scan types
+* Target must be run through VirtualBox
 * Tested on Kali Linux
 
 ---
