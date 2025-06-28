@@ -62,5 +62,5 @@ sudo nmap -vv -T4 -sV -sC -p"\$LIVE\_PORTS" -oN NmapPortsEnum "\$TARGET\_IP" > /
 
 echo -e "\n\[+] \${BOLD}\${BLUE}Nmap Enumeration Output for \$TARGET\_IP:\${RESET}"
 cat NmapPortsEnum
-echo -e "\n----------------------------------------\n"
+echo -e "\n-----------------------------------------\n"
 done
